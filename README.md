@@ -6,13 +6,13 @@
 3. In the root of your project, create 
 
   ```
-  platform :ios
-  dependency 'cocos2d-iphone',           '~> 1.0.1'
-  dependency 'cocos2d-iphone/Platforms/iOS'
-  dependency 'cocos2d-iphone/CocosDenshion'
-  dependency 'cocos2d-iphone/CocosDenshionExtras'
-  dependency 'cocos2d-iphone/cocoslive'
-  ```
+platform :ios
+dependency 'cocos2d-iphone',           '~> 1.0.1'
+dependency 'cocos2d-iphone/Platforms/iOS'
+dependency 'cocos2d-iphone/CocosDenshion'
+dependency 'cocos2d-iphone/CocosDenshionExtras'
+dependency 'cocos2d-iphone/cocoslive'
+```
 
   CocosDenshionExtras, cocoslive are optional.
 
