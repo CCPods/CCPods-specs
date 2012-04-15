@@ -1,11 +1,8 @@
 # Podspecs for cocos2d-iphone and its related libraries
 
-## Installing cocos2d-iphone as a Pod (Using Cocoapod in the cocos2d-iphone Hello World)
-1. Copy the specs folders "cocos2d-iphone" and "FontLabel" to ~/.cocoapods/master. 
-2. Create a new cocos2d project
-3. In the root of your project, create 
+## Podfile 
 
-  ```
+```
 platform :ios
 dependency 'cocos2d-iphone',           '~> 1.0.1'
 dependency 'cocos2d-iphone/Platforms/iOS'
@@ -14,8 +11,12 @@ dependency 'cocos2d-iphone/CocosDenshionExtras'
 dependency 'cocos2d-iphone/cocoslive'
 ```
 
-  CocosDenshionExtras, cocoslive are optional.
-
+CocosDenshionExtras, cocoslive are optional.
+  
+## Installing cocos2d-iphone as a Pod (Using Cocoapod in the cocos2d-iphone Hello World)
+1. Copy the specs folders "cocos2d-iphone" and "FontLabel" to ~/.cocoapods/master. 
+2. Create a new cocos2d project
+3. In the root of your project, create Podfile
 4. run `pod install App.xcproject`
 5. Use Xcode to open App.xcworkspace
 6. Remove unncessary files
