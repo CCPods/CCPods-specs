@@ -14,7 +14,7 @@
   dependency 'cocos2d-iphone/cocoslive'
   ```
 
-CocosDenshionExtras, cocoslive are optional.
+  CocosDenshionExtras, cocoslive are optional.
 
 4. run `pod install App.xcproject`
 5. Use Xcode to open App.xcworkspace
