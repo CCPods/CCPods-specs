@@ -11,7 +11,8 @@ Pod::Spec.new do |s|
   }
   s.source   = { :git => 'git://github.com/cocos2d/cocos2d-iphone.git', :tag => 'release-1.0.1' }
   s.source_files = 'cocos2d/*.{h,m,c}', 'cocos2d/Support/*.{h,m,c}'
-  #s.resources    = ''
+
+  s.library = 'z'
   s.frameworks   = 'QuartzCore', 'OpenGLES', 'OpenAL', 'AudioToolbox', 'AVFoundation', 'UIKit', 'Foundation', 'CoreGraphics'
   s.dependency 'TouchJSON'
   s.dependency 'FontLabel'
