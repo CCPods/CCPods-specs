@@ -42,8 +42,6 @@ CocosDenshionExtras, cocoslive are optional.
 
 ## TODO
 * Create a podspec for Chipmunk podspec
-* Create podspecs for cocos2d-extensions
-* Create a podspec for cocos2d-iphone Mac 
 * Create podspecs for cocos2d-iphone 1.1 and 2.0
 * Add cleanup_paths in the podspec
 
