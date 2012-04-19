@@ -1,4 +1,6 @@
-# Podspecs for cocos2d-iphone and its related libraries
+# A repository of CocoaPods specifications for cocos2d-iphone and its related libraries
+
+[![Build Status](https://secure.travis-ci.org/l4u/cocos2d-iphone-podspec.png?branch=master)](http://travis-ci.org/l4u/cocos2d-iphone-podspec)
 
 ## Pod source
 ```
