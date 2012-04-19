@@ -1,6 +1,11 @@
 # Podspecs for cocos2d-iphone and its related libraries
 
-## Podfile 
+## Pod source
+```
+pod repo add https://github.com/l4u/cocos2d-iphone-podspec
+```
+
+## Example Podfile for iOS
 
 ```
 platform :ios
@@ -14,11 +19,11 @@ dependency 'cocos2d-iphone/cocoslive'
 CocosDenshionExtras, cocoslive are optional.
   
 ## Installing cocos2d-iphone as a Pod (Using Cocoapod in the cocos2d-iphone Hello World)
-1. Copy the specs folders "cocos2d-iphone" and "FontLabel" to ~/.cocoapods/master. 
-2. Create a new cocos2d project
-3. In the root of your project, create Podfile
-4. run `pod install App.xcproject`
-5. Use Xcode to open App.xcworkspace
+1. Create a new cocos2d project
+2. In the root of your project, create Podfile
+3. run `pod install App.xcproject`
+4. Use Xcode to open App.xcworkspace
+5. Remove Other Linker Flag in the Project, so that the value is not override that from Pods.xcconfig
 6. Remove unncessary files
   * libs/cocos2d
   * libs/CocosDenshion
@@ -41,7 +46,7 @@ CocosDenshionExtras, cocoslive are optional.
 * Dependencies such as TouchJSON, FontLabel, might be newer than the bundled version of cocos2d-iphone
 
 ## TODO
-* Create a podspec for Chipmunk podspec
+* Create a podspec for Chipmunk 
 * Create podspecs for cocos2d-iphone 1.1 and 2.0
 * Add cleanup_paths in the podspec
 
