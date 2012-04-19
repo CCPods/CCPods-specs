@@ -25,7 +25,7 @@ CocosDenshionExtras, cocoslive are optional.
 2. In the root of your project, create Podfile
 3. run `pod install App.xcproject`
 4. Use Xcode to open App.xcworkspace
-5. Remove Other Linker Flag in the Project, so that the value is not override that from Pods.xcconfig
+5. Remove Other Linker Flags in the Project, so that the value is not overriding that from Pods.xcconfig
 6. Remove unncessary files
   * libs/cocos2d
   * libs/CocosDenshion
