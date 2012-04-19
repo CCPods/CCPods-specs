@@ -1,7 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'cocos2d-iphone'
   s.version  = '1.0.1'
-  s.platform = :ios
   s.summary  = "cocos2d for iPhone is a framework for building 2D games, demos, and other graphical/interactive applications."
   s.homepage = 'http://www.cocos2d-iphone.org'
   s.authors   = {
@@ -31,14 +30,10 @@ Pod::Spec.new do |s|
       ios.source_files = 'cocos2d/Platforms/iOS/*.{h,m,c}'
     end
 
-    # TODO add Mac platform
-=begin
     # Full name: cocos2d-iphone/Platforms/Mac
     p.subspec 'Mac' do |mac|
-      mac.platform = :mac
       mac.source_files = 'cocos2d/Platforms/Mac/*.{h,m,c}'
     end
-=end
 
   end
 
