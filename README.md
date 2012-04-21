@@ -58,3 +58,11 @@ These podspecs and CocoaPods are available under the [MIT license](http://www.op
 ## Related links
 * [CocoaPods](http://cocoapods.org)
 * [cocos2d-iphone](http://cocos2d-iphone.org)
+
+## Donating
+
+[Support cocos2d-iphone-podspec at Pledgie](http://pledgie.com/campaigns/17190)
+
+<a href='http://www.pledgie.com/campaigns/17190'><img alt='Click here to lend your support to: cocos2d-iphone-podspec and make a donation at www.pledgie.com !' src='http://www.pledgie.com/campaigns/17190.png?skin_name=chrome' border='0' /></a>
+
+[![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=l4u&url=http://github.com/l4u/cocos2d-iphone-podspec&title=cocos2d-iphone-podspec&language=&tags=github&category=software)
