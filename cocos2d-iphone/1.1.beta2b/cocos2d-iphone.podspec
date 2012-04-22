@@ -20,7 +20,6 @@ Pod::Spec.new do |s|
 
   s.library = 'z'
   s.frameworks   = 'QuartzCore', 'OpenGLES', 'OpenAL', 'AudioToolbox', 'AVFoundation', 'UIKit', 'Foundation', 'CoreGraphics'
-  s.dependency 'TouchJSON', '~> 1.0'
   s.dependency 'FontLabel'
 
   # maintain folder structure
@@ -41,5 +40,6 @@ Pod::Spec.new do |s|
   # Full name: cocos2d-iphone/cocoslive
   s.subspec 'cocoslive' do |p|
     p.source_files = 'cocoslive/*.{h,m,c}'
+    p.dependency 'TouchJSON', '~> 1.0'
   end
 end
