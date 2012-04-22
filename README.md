@@ -12,7 +12,6 @@ pod repo add https://github.com/l4u/cocos2d-iphone-podspec
 ```
 platform :ios
 dependency 'cocos2d-iphone',           '~> 1.0.1'
-dependency 'cocos2d-iphone/Platforms/iOS'
 dependency 'cocos2d-iphone/CocosDenshion'
 dependency 'cocos2d-iphone/CocosDenshionExtras'
 dependency 'cocos2d-iphone/cocoslive'

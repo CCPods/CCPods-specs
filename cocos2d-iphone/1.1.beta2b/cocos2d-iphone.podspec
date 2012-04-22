@@ -9,32 +9,23 @@ Pod::Spec.new do |s|
     'Steve Oldmeadow' => 'http://www.smoco.com'
   }
   s.source   = { :git => 'git://github.com/cocos2d/cocos2d-iphone.git', :tag => 'release-1.1-beta2b' }
-  s.source_files = 'cocos2d/*.{h,m,c}', 'cocos2d/Support/*.{h,m,c}'
+
+  files = FileList['cocos2d/*.{h,m,c}', 'cocos2d/Support/*.{h,m,c}', 'cocos2d/Platforms/*.{h,m,c}']
+  if config.ios?
+    files.include 'cocos2d/Platforms/iOS/*.{h,m,c}'
+  else
+    files.include 'cocos2d/Platforms/Mac/*.{h,m,c}'
+  end
+  s.source_files = files
 
   s.library = 'z'
   s.frameworks   = 'QuartzCore', 'OpenGLES', 'OpenAL', 'AudioToolbox', 'AVFoundation', 'UIKit', 'Foundation', 'CoreGraphics'
-  s.dependency 'TouchJSON'
+  s.dependency 'TouchJSON', '~> 1.0'
   s.dependency 'FontLabel'
 
   # maintain folder structure
   def s.copy_header_mapping(from)
     from
-  end
-
-  # Full name: cocos2d-iphone/Platforms
-  s.subspec 'Platforms' do |p|
-    p.source_files = 'cocos2d/Platforms/*.{h,m,c}'
-
-    # Full name: cocos2d-iphone/Platforms/iOS
-    p.subspec 'iOS' do |ios|
-      ios.source_files = 'cocos2d/Platforms/iOS/*.{h,m,c}'
-    end
-
-    # Full name: cocos2d-iphone/Platforms/Mac
-    p.subspec 'Mac' do |mac|
-      mac.source_files = 'cocos2d/Platforms/Mac/*.{h,m,c}'
-    end
-
   end
 
   # Full name: cocos2d-iphone/CocosDenshion
