@@ -1,10 +1,10 @@
-# A repository of CocoaPods specifications for cocos2d-iphone and its related libraries
+# A repository of CocoaPods specifications for cocos2d-iphone and its extensions
 
-[![Build Status](https://secure.travis-ci.org/l4u/cocos2d-iphone-podspec.png?branch=master)](http://travis-ci.org/l4u/cocos2d-iphone-podspec)
+[![Build Status](https://secure.travis-ci.org/CCPods/CCPods-specs.png?branch=master)](http://travis-ci.org/CCPods/CCPods-specs)
 
 ## Pod source
 ```
-pod repo add https://github.com/l4u/cocos2d-iphone-podspec
+pod repo add CCPods https://github.com/CCPods/CCPods-specs.git
 ```
 
 ## Example Podfile for iOS
@@ -19,7 +19,7 @@ dependency 'cocos2d-iphone/cocoslive'
 
 CocosDenshionExtras, cocoslive are optional.
   
-## Installing cocos2d-iphone as a Pod (Using Cocoapod in the cocos2d-iphone Hello World)
+## Installing cocos2d-iphone as a Pod (Using CCPods in the cocos2d-iphone Hello World)
 1. Create a new cocos2d project
 2. In the root of your project, create Podfile
 3. run `pod install App.xcproject`
@@ -33,7 +33,7 @@ CocosDenshionExtras, cocoslive are optional.
   * libs/FontLabel
 
 ## Running tests
-1. Install cocos2d-iphone pods to the test project 
+1. Install CCPods to the test project 
   * Add Podfile
   * run pod install
   `pod install cocos2d-ios.xcodeproj`
@@ -60,8 +60,8 @@ These podspecs and CocoaPods are available under the [MIT license](http://www.op
 
 ## Donating
 
-[Support cocos2d-iphone-podspec at Pledgie](http://pledgie.com/campaigns/17190)
+[Support CCPods at Pledgie](http://pledgie.com/campaigns/17190)
 
-<a href='http://www.pledgie.com/campaigns/17190'><img alt='Click here to lend your support to: cocos2d-iphone-podspec and make a donation at www.pledgie.com !' src='http://www.pledgie.com/campaigns/17190.png?skin_name=chrome' border='0' /></a>
+<a href='http://www.pledgie.com/campaigns/17190'><img alt='Click here to lend your support to: CCPods and make a donation at www.pledgie.com !' src='http://www.pledgie.com/campaigns/17190.png?skin_name=chrome' border='0' /></a>
 
-[![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=l4u&url=http://github.com/l4u/cocos2d-iphone-podspec&title=cocos2d-iphone-podspec&language=&tags=github&category=software)
+[![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=l4u&url=http://github.com/CCPods/CCPods-specs&title=CCPods&language=&tags=github&category=software)
