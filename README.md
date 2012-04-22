@@ -65,4 +65,4 @@ These podspecs and CocoaPods are available under the [MIT license](http://www.op
 
 <a href='http://www.pledgie.com/campaigns/17190'><img alt='Click here to lend your support to: CCPods and make a donation at www.pledgie.com !' src='http://www.pledgie.com/campaigns/17190.png?skin_name=chrome' border='0' /></a>
 
-[![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=CCPods&url=http://github.com/CCPods/CCPods-specs&title=CCPods&language=&tags=github&category=software)
+[![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=l4u&url=http://github.com/CCPods/CCPods-specs&title=CCPods&language=&tags=github&category=software)
