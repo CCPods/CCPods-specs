@@ -47,8 +47,8 @@ CocosDenshionExtras, cocoslive are optional.
 * Dependencies such as TouchJSON, FontLabel, might be newer than the bundled version of cocos2d-iphone
 
 ## TODO
-* Create a podspec for Chipmunk 
-* Create podspecs for cocos2d-iphone 1.1 and 2.0
+* Test the podspec of cocos2d-iphone for Mac OS
+* Create podspecs for cocos2d-iphone 2.0
 * Add cleanup_paths in the podspec
 
 ## License
