@@ -1,5 +1,5 @@
-# A repository of CocoaPods specifications for cocos2d-iphone and its extensions
-
+# ![CCPods](http://i.imgur.com/20c5p.png)
+A repository of CocoaPods specifications for cocos2d-iphone and its extensions
 [![Build Status](https://secure.travis-ci.org/CCPods/CCPods-specs.png?branch=master)](http://travis-ci.org/CCPods/CCPods-specs)
 
 ## Pod source
