@@ -1,4 +1,4 @@
-# ![CCPods](http://i.imgur.com/20c5p.png)
+# ![CCPods](http://i.imgur.com/3yKTc.png)
 
 [![Build Status](https://secure.travis-ci.org/CCPods/CCPods-specs.png?branch=master)](http://travis-ci.org/CCPods/CCPods-specs)
 
