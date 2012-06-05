@@ -51,7 +51,6 @@ CocosDenshionExtras, cocoslive are optional.
 ## TODO
 * Test the podspec of cocos2d-iphone for Mac OS
 * Create podspecs for cocos2d-iphone 2.0
-* Add cleanup_paths in the podspec
 
 ## License
 These podspecs and CocoaPods are available under the [MIT license](http://www.opensource.org/licenses/mit-license.php).
